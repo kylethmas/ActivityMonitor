@@ -1,0 +1,151 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    Line-height: 1.6;
+    background: url("../img/bg.png") top center;
+    
+}
+
+header {
+  color: white;
+}
+
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-toggle:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-toggle {
+  background-color: #555;
+}
+
+/* Device Sections */
+section {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+
+.device-details {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+.device-details h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #124265;
+}
+  
+.device-details p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #919191;
+}
+
+#info {
+  padding-top: 120px;
+}
+/* Add device */
+#addDevice {
+    background: #333;
+    background-size: cover;
+    padding: 60px 5px;
+  }
+
+#addDevice p, h3, label {
+    color:white;
+}
+
+#addDevice #submitbtn,
+#addDevice textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+#addDevice input {
+  height: 44px;
+}
+
+#addDevice textarea {
+  padding: 10px 12px;
+}
+
+.help-text{
+  padding: 0px;
+  padding-top: 10px;
+  color: white;
+}
+
+
+#submitbtn:hover {
+    background: #555;
+    color: white;
+}
+  

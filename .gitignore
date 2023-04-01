@@ -1,0 +1,39 @@
+# Sensor firmware 
+Sensor/STM32CubeIDE/Door_Debug/
+Sensor/STM32CubeIDE/Door_Release/
+Sensor/STM32CubeIDE/Loiter_Debug/
+Sensor/STM32CubeIDE/Loiter_Release/
+Sensor/STM32CubeIDE/CETestBuild/
+Sensor/STM32CubeIDE/Debug/
+Sensor/STM32CubeIDE/Release/
+
+# Factory tool
+ConfigTool/debug.log
+ConfigTool/build/
+ConfigTool/dist/
+ConfigTool/ConfigTool.spec
+ConfigTool/PDF_Printer/PDFtoPrinter.exe
+
+# Python caches 
+**/__pycache__/**
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Wav files
+# Too many, just run script as needed
+*.wav
+
+# Database
+db.sqlite3
+web/censis/myapp/migrations
+
+# virtual environments
+**/.env/
+
+#vscode
+**/.vscode/
+
+#coverage
+.coverage
+.idea/workspace.xml
